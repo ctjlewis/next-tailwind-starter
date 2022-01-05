@@ -133,7 +133,7 @@
    * Flex container that fills parent.
    */
   .expanded {
-    @apply flex flex-1 items-stretch;
+    @apply flex flex-1 items-stretch w-full h-full;
   }
   /**
    * A pure-flex container will be display: flex.
@@ -166,7 +166,7 @@
   code {}
 
   main {
-    @apply m-4 my-8 flex-col expanded flex-center;
+    @apply px-4 py-8 flex-col expanded flex-center;
   }
 
   header {
